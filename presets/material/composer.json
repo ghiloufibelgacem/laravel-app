@@ -1,0 +1,22 @@
+{
+    "name": "#",
+    "description": "#",
+    "license": "MIT",
+    "homepage": "#",
+    "keywords": ["Laravel", "Preset", "Material"],
+    "require": {
+        "laravel/framework": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelFrontendPresets\\MaterialPreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelFrontendPresets\\MaterialPreset\\MaterialPresetServiceProvider"
+            ]
+        }
+    }
+}
